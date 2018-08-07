@@ -1,0 +1,291 @@
+{
+  "mysql": {
+    "client": {
+      "host": "/Users/wkl/egg-demo/config/config.default.js",
+      "port": "/Users/wkl/egg-demo/config/config.default.js",
+      "user": "/Users/wkl/egg-demo/config/config.default.js",
+      "password": "/Users/wkl/egg-demo/config/config.default.js",
+      "database": "/Users/wkl/egg-demo/config/config.default.js"
+    },
+    "app": "/Users/wkl/egg-demo/config/config.default.js",
+    "agent": "/Users/wkl/egg-demo/config/config.default.js",
+    "default": {
+      "database": "/Users/wkl/egg-demo/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/wkl/egg-demo/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "keys": "/Users/wkl/egg-demo/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/wkl/egg-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/wkl/egg-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/wkl/egg-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/wkl/egg-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/wkl/egg-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/wkl/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/wkl/egg-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wkl/egg-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/wkl/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wkl/egg-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wkl/egg-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/wkl/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/wkl/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/wkl/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wkl/egg-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wkl/egg-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/wkl/egg-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/wkl/egg-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/wkl/egg-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wkl/egg-demo/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/wkl/egg-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wkl/egg-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/wkl/egg-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wkl/egg-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wkl/egg-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/wkl/egg-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/wkl/egg-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wkl/egg-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/wkl/egg-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/wkl/egg-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/wkl/egg-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/wkl/egg-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/wkl/egg-demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/wkl/egg-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "description": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "stop": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "dev": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "debug": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "cov": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "lint": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "ci": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "autod": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "url": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "license": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/wkl/egg-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/wkl/egg-demo/node_modules/egg/config/config.default.js"
+}

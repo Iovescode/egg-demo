@@ -1,0 +1,195 @@
+2018-08-07 13:37:10,536 ERROR 17644 [-/127.0.0.1/-/20ms GET /user?id=555] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 17644
+hostname: WIN-IVGQMH69UIV
+
+2018-08-07 13:39:22,002 ERROR 21396 [-/127.0.0.1/-/21ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg\lib\application.js:318:15)
+    at Object.get cookies [as cookies] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\app\extend\context.js:78:33)
+    at Object.ensureCsrfSecret (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\app\extend\context.js:89:13)
+    at csrf (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 21396
+hostname: WIN-IVGQMH69UIV
+
+2018-08-07 13:39:41,596 ERROR 12600 [-/127.0.0.1/-/23ms GET /user?id=555] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'created_at' in 'order clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'created_at' in 'order clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12600
+hostname: WIN-IVGQMH69UIV
+
+2018-08-07 13:39:49,345 ERROR 12600 [-/127.0.0.1/-/5ms GET /user?id=555] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'created_at' in 'order clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'created_at' in 'order clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12600
+hostname: WIN-IVGQMH69UIV
+
+2018-08-07 13:40:19,401 ERROR 12600 [-/127.0.0.1/-/80ms GET /user?id=555] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'created_at' in 'order clause'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\egg\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'created_at' in 'order clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT `end`, `title` FROM `dm_copy` ORDER BY `created_at` DESC, `id` DESC LIMIT 0, 10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12600
+hostname: WIN-IVGQMH69UIV
+
+2018-08-07 22:54:39,697 ERROR 37700 [-/127.0.0.1/-/5ms GET /user] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'end' in 'field list'
+    at Query.Sequence._packetToError (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Pool.query (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wkl/Desktop/egg-example/node_modules/co/index.js:65:19)
+    at /Users/wkl/Desktop/egg-example/node_modules/co/index.js:54:5
+    sql: SELECT `end`, `title` FROM `sent_action` LIMIT 0, 10
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'end' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT `end`, `title` FROM `sent_action` LIMIT 0, 10"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 37700
+hostname: wkldeMacBook-Pro.local
+
+2018-08-07 23:23:22,315 ERROR 38166 [-/127.0.0.1/-/18ms GET /user?id=4] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'cms.posts' doesn't exist
+    at Query.Sequence._packetToError (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    --------------------
+    at Pool.query (/Users/wkl/Desktop/egg-example/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wkl/Desktop/egg-example/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wkl/Desktop/egg-example/node_modules/co/index.js:65:19)
+    at /Users/wkl/Desktop/egg-example/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `posts`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'cms.posts' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `posts`"
+name: "ER_NO_SUCH_TABLEError"
+pid: 38166
+hostname: wkldeMacBook-Pro.local
+
